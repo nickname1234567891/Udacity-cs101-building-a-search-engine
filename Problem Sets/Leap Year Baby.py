@@ -15,6 +15,10 @@ def is_leap_baby(day,month,year):
     if month==2 and day==29:
         if (year%4 == 0 and year%100>0) or (year%4==0 and year%100==0 and year%400==0) :
             return True
+        else :
+            return False
+    else :
+        return False            
 # The function 'output' prints one of two statements based on whether 
 # the is_leap_baby function returned True or False.
 
